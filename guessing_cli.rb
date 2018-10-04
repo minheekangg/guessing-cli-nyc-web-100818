@@ -11,5 +11,6 @@ loop do
     puts "The computer guessed #{computer_response}."
   break if user_response== "exit"
         puts "Goodbye!"
+      end
     end
 end
