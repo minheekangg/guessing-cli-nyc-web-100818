@@ -6,5 +6,8 @@ def run_guessing_game
   if user_response== "exit"
     puts "Goodbye!"
   end
-  
+
+  if user_response == (1..6)rand
+    puts "You guessed the correct number!"
+  end
 end
