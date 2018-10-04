@@ -7,11 +7,8 @@ def run_guessing_game
 loop do
   if user_response.to_i == computer_response
     puts "You guessed the correct number!"
-    puts "Goodbye!"
-  else
+  else user_response.to_i != computer_response
     puts "The computer guessed #{computer_response}."
-    puts "Goodbye!"
-end
   break if user_response== "exit"
         puts "Goodbye!"
     end
