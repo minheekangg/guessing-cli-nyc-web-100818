@@ -5,12 +5,12 @@ def run_guessing_game
   computer_response = rand(1..6)
 
 loop do
-  if user_response.to_i == computer_response
+  if user_response == computer_response
     puts "You guessed the correct number!"
   else
     puts "The computer guessed #{computer_response}."
   end
-  break if user_response== "exit"
+  break if user_response == "exit"
         puts "Goodbye!"
     end
 end
