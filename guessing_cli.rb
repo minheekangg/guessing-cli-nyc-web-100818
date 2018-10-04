@@ -14,4 +14,6 @@ loop do
   if user_response == "exit"
         puts "Goodbye!"
         break
+      end
+    end
 end
