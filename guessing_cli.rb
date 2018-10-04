@@ -6,7 +6,7 @@ loop do
   user_response = gets.chomp
   computer_response = rand(1..6)
 
-  if user_response == computer_response
+  if user_response.to_i == computer_response
     puts "You guessed the correct number!"
   else
     puts "The computer guessed #{computer_response}."
