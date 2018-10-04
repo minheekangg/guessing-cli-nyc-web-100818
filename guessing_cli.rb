@@ -10,8 +10,9 @@ loop do
     puts "You guessed the correct number!"
   else
     puts "The computer guessed #{computer_response}."
-  break if user_response == "exit"
+  if user_response == "exit"
         puts "Goodbye!"
+        break
       end
     end
 end
